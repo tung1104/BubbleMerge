@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5490409678138228516}
-  m_IndirectSpecularColor: {r: 0.33032218, g: 0.32409734, b: 0.2824494, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -457,12 +456,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &1060784196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,11 +1443,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7315773409496894814, guid: b5f6cc9f0ef59d34b9f4a1e24115de70,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -46.19995
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2020,6 +2014,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -170.04999
       objectReference: {fileID: 0}
+    - target: {fileID: 2873190811885664424, guid: a6a57bc430670554483b9c3ee65a7f34,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4437299096243657708, guid: a6a57bc430670554483b9c3ee65a7f34,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2189,6 +2188,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142837362023134980, guid: a6a57bc430670554483b9c3ee65a7f34,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6808754792015572241, guid: a6a57bc430670554483b9c3ee65a7f34,
         type: 3}
