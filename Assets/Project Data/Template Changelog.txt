@@ -1,0 +1,7 @@
+v1.0.1
+Fixed iOS vibration bug
+Reworked PU system's structure
+Watermelon Core update
+
+v1.0.0
+Release
